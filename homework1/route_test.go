@@ -283,8 +283,6 @@ func (r router) equal(y router) (string, bool) {
 }
 
 func (n *node) equal(y *node) (string, bool) {
-	fmt.Printf("AAA: %+v \n", n)
-	fmt.Printf("AAA: %+v \n", y)
 	if y == nil {
 		return "目标节点为 nil", false
 	}
